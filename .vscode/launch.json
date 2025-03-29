@@ -7,28 +7,28 @@
 
         {
             "type": "node-terminal",
-            "name": "Run Script: dev",
+            "name": "next dev",
             "request": "launch",
             "command": "pnpm run dev",
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "node-terminal",
-            "name": "Run Script: build",
+            "name": "next build",
             "request": "launch",
             "command": "pnpm build",
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "node-terminal",
-            "name": "Run Script: start",
+            "name": "next start",
             "request": "launch",
             "command": "pnpm start",
             "cwd": "${workspaceFolder}"
         },
         {
             "type": "node-terminal",
-            "name": "Run Script: lint",
+            "name": "next lint",
             "request": "launch",
             "command": "pnpm lint",
             "cwd": "${workspaceFolder}"
