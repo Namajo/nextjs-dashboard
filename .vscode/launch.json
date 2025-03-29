@@ -25,6 +25,13 @@
             "request": "launch",
             "command": "pnpm start",
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Run Script: lint",
+            "request": "launch",
+            "command": "pnpm lint",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
